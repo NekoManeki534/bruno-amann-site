@@ -1,5 +1,6 @@
-{#- Une référence ; variables attendues : p, t -#}
-{{ p.reference | mdi | safe }}
+{#- Une référence ; variables attendues : p, t, lang (langue de la page) -#}
+{%- set lr = p.langue or "fr" -%}
+{%- if lr != lang %}<span lang="{{ lr }}">{{ p.reference | mdi | safe }}</span>{% else %}{{ p.reference | mdi | safe }}{% endif %}
 {%- set afr = p.audio_fr | existe %}{% set aen = p.audio_en | existe %}
 {%- if afr or aen %}
 <span class="audio">

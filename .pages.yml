@@ -39,6 +39,16 @@ content:
     description: 'Auteurs (année), titre, revue ou ouvrage… L''italique s''écrit entre astérisques : *in*. Un lien : [texte](https://adresse).'
     type: text
     required: true
+  - name: langue
+    label: Langue de la référence
+    description: Permet aux lecteurs d’écran et au bouton « Écouter » de prononcer correctement.
+    type: select
+    options:
+      values:
+      - value: fr
+        label: Français
+      - value: en
+        label: Anglais
   - name: cv_court
     label: Afficher dans le CV court
     type: boolean

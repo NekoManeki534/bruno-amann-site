@@ -85,6 +85,17 @@ main:focus { outline: none; }
 }
 .sous-nav a[aria-current="page"] { background: var(--accent); border-color: var(--accent); color: #fff; }
 
+/* Bouton « Écouter » (lecture à voix haute) */
+.ecoute { margin: 1.4rem 0 0; }
+.ecoute__bouton {
+  display: inline-flex; align-items: center; gap: 0.45rem; cursor: pointer;
+  font: inherit; font-size: 0.95rem; color: var(--accent); background: var(--fond);
+  border: 1px solid var(--accent); border-radius: 4px; padding: 0.4rem 0.9rem;
+}
+.ecoute__bouton:hover { background: var(--fond-doux); }
+.ecoute__bouton[aria-pressed="true"] { background: var(--accent); color: #fff; }
+.en-lecture { background: #fff3c4; box-shadow: 0 0 0 4px #fff3c4; border-radius: 2px; }
+
 /* Contenu */
 .texte, .accueil { max-width: var(--texte-max); padding: 1.5rem 0 3.5rem; }
 h1, h2, h3, h4 { font-family: var(--serif); line-height: 1.25; font-weight: 600; color: var(--encre); }
@@ -154,7 +165,7 @@ th { background: var(--fond-doux); font-weight: 600; }
 }
 
 @media print {
-  .entete .nav, .sous-nav, .annees, .pied, .evitement, .entete__langue { display: none; }
+  .entete .nav, .sous-nav, .annees, .pied, .evitement, .entete__langue, .ecoute { display: none; }
   a { color: inherit; text-decoration: none; }
   h2 { break-after: avoid; }
 }

@@ -3,645 +3,805 @@
 # Le plus simple pour modifier : l'interface d'édition (Pages CMS).
 - annee: 2027
   type: chapitre
+  langue: en
   reference: "Amann B., Jaussaud J., Picart L. (2027), Organizational Factors and Burnout: A Longitudinal Qualitative Analysis *in* Geopolitics of Inclusion at Work: Experiences around the World, Routledge, Jaussaud J., Morales L (ed)."
   cv_court: false
 - annee: 2027
   type: chapitre
+  langue: en
   reference: "Amann B., Futagami S., Jaussaud J., Mizoguchi S. Nakamura H., Schaaper J. (2027), Back to basics: the Uppsala model of progressive internationalisation with regards of half a century of Japanese firms’ international development *in* Geoeconomics and Geopolitics in East Asia: Global Power Dynamics in China and Japan, Bernadette Andreosso-O’Callaghan, Sam Dzever and Jacques Jaussaud ed."
   cv_court: false
 - annee: 2027
   type: chapitre
+  langue: en
   reference: "Amann B., Jean-Amans C., Jean-Amans Ph., Zhang B. (2027), A Strategic Assessment on China and Chinese Enterprises *in* Geoeconomics and Geopolitics in East Asia: Global Power Dynamics in China and Japan, Bernadette Andreosso-O’Callaghan, Sam Dzever and Jacques Jaussaud ed."
   cv_court: false
 - annee: 2027
   type: chapitre
+  langue: en
   reference: "Amann B., Jaussaud J., Mizoguchi S. Nakamura H., Schaaper J. (2027), Internationalisation Strategies in Asia: Regionalisation, Control, and Human Resource Management in Multinational Enterprises – An Analytical Synthesis, *in* Geoeconomics and Geopolitics in East Asia: Global Power Dynamics in China and Japan, Bernadette Andreosso-O’Callaghan, Sam Dzever and Jacques Jaussaud ed."
   cv_court: false
 - annee: 2026
   type: communication
+  langue: en
   reference: Amann B., Jaussaud J., Kanie A., Nakamura H. (2026), Environmental accounting and ESG reporting – The perspectives of Europe and Japan, 29th International Euro-Asia Research Seminar, Bochum, July 1st-3rd, 2026
   cv_court: false
 - annee: 2025
   type: communication
+  langue: en
   reference: "Amann B., Jaussaud J.(2025),Facing the demographic decline in Japan: gender diversity at the highest levels of responsibilities? Accepted 28<sup>ème</sup> Euro-Asia International Research Seminar, Yokohama, Japan"
   cv_court: false
 - annee: 2025
   type: communication
+  langue: en
   reference: Amann B., Jaussaud J., Kanie A., Nakamura H. (2025), Environmental accounting and ESG reporting – The perspectives of Europe and Japan, Accepted 28<sup>ème</sup> Euro-Asia International Research Seminar, Yokohama, Japan
   cv_court: false
 - annee: 2024
   type: chapitre
+  langue: en
   reference: "Amann B., Jean-Amans C., Jaussaud J., Zhang Boqi (2024), Chinese investments in French SMEs: Creating opportunities by compensating for liabilitie, in *[Geopolitical Uncertainty and International Business: Shaping our Future World,](https://www.e-elgar.com/shop/gbp/geopolitical-uncertainty-and-international-business-9781035325405.html)* Bernadette Andreosso-O’Callaghan and Daniel Rajmil(Ed) Edward Elgar"
   audio_fr: /assets/audio/chinese-investments-fr.mp3
   audio_en: /assets/audio/chinese-investments-en.mp3
   cv_court: false
 - annee: 2023
   type: communication
+  langue: en
   reference: "Amann B., Jean-Amans C., Jaussaud J. (2023), The impact of economic sanctions of the decision of foreign firms to exit from Russia: the case of Asian firms, 27<sup>ème</sup> Euro-Asia International Research Seminar, Barcelona, Spain"
   cv_court: false
 - annee: 2022
   type: communication
+  langue: en
   reference: "Amann B., Jaussaud J., Nakamura H. (2022), Climate change emergency and strengthened regulation on greenhouse gas emissions: a Japan - Europe comparison, 26<sup>ème</sup> Euro-Asia International Research Seminar, Poitiers, France"
   cv_court: false
 - annee: 2022
   type: communication
+  langue: en
   reference: "Amann B., Jean-Amans C., Jaussaud J., Zhang B. (2022), Chinese investments in French SMEs: creating opportunities by compensating for liabilities? 26<sup>ème</sup> Euro-Asia International Research Seminar, Poitiers, France"
   cv_court: false
 - annee: 2022
   type: chapitre
+  langue: en
   reference: "Amann B., Jaussaud J., Mizoguchi S., Nakamura H. (2022), Environmental Management Accounting in European countries and Japan - a literature survey, in [Perspectives On Sustainable Development in Asia](https://link.springer.com/book/10.1007/978-3-030-94679-1), Bernadette Andreosso-O’Callaghan, Serge Rey, and Robert Taylor (Ed), Springer, pp. 167-177"
   cv_court: false
 - annee: 2021
   type: chapitre
+  langue: fr
   reference: "Amann B. (2021), Quelques apports de l'analyse économique au droit, [Mélanges en l'honneur du Professeur Alain Couret. Un juriste pluriel.](https://www.lgdj.fr/melanges-en-l-honneur-d-alain-couret-9782247203758.html) Coédition EFL-Dalloz, pp. 923-935"
   cv_court: false
 - annee: 2020
   type: revue
+  langue: en
   reference: "Amann B., Jaussaud J., Schaaper J. (2020), [The Bridging Role of Regional Headquarters Multinational Companies in the Asia-Pacific Region,](https://www.emerald.com/insight/content/doi/10.1108/MBR-11-2019-0144/full/html) Multinational Business Review, vol 29, n° 1, pp. 116-142. [https://doi.org/10.1108/MBR-11-2019-0144](https://doi.org/10.1108/MBR-11-2019-0144)"
   audio_fr: /assets/audio/bridging-fr.mp3
   cv_court: true
 - annee: 2020
   type: ouvrage
+  langue: en
   reference: "Amann B., Jaussaud J. [ed] (2020), [Cross-Cultural Challenges in International Management, Routledge](https://www.routledge.com/Cross-cultural-Challenges-in-International-Management/Amann-Jaussaud/p/book/9780367457907), Septembre, 29"
   cv_court: true
 - annee: 2020
   type: communication
+  langue: en
   reference: Amann B., Jaussaud J., Mizoguchi S., Nakamura H. (2020), Environmental Management and Information Systems in Western countries and Japan - a literature survey, XXVth Euro-Asia International Research Seminar, Dublin, Ireland
   cv_court: false
 - annee: 2020
   type: chapitre
+  langue: en
   reference: "Amann B., Jaussaud J., (2020), Comparative Study between Japan and France on Employment and Human Resource Development of Female and Foreign Workers: Diversity and Inclusion in [Futagami S. [ed], Diversity and Inclusion, Chuo-Keizai, Tokyo](https://images-na.ssl-images-amazon.com/images/I/51YWp7W+eGL._SX350_BO1,204,203,200_.jpg)"
   cv_court: false
 - annee: 2020
   type: chapitre
+  langue: en
   reference: "Amann B., Futagami S., Jaussaud J., Jean-Amans C. (2020), Emerging Countries Multinationals Investing in Developed Countries: the issue of Reciprocal Asymmetries - the case of Chinese investments in Japan. [The Changing Global Environment in Asia and Human Resource Management StrategiesChanging Global Environment in Asia and Human Resource Management Strategies](https://novapublishers.com/shop/the-changing-global-environment-in-asia-and-human-resource-management-strategies/), Bernadette Andreosso-O’Callaghan, Jacques Jaussaud, Robert Taylor and Bruna M. Zolin (Ed), Nova Sciences Publishers"
   cv_court: false
 - annee: 2020
   type: chapitre
+  langue: en
   reference: "Amann B., Jaussaud J. (2020), Facing the shrinking labour force population in Japan: managing diversity - how enhancing female employment and developing immigration become crucial issues? *in* [The Changing Global Environment in Asia and Human Resource Management Strategies Asia and Human Resource Management Strategies](https://novapublishers.com/shop/the-changing-global-environment-in-asia-and-human-resource-management-strategies/), Bernadette Andreosso-O’Callaghan, Jacques Jaussaud, Robert Taylor and Bruna M. Zolin (Ed), Nova Sciences Publishe"
   cv_court: false
 - annee: 2019
   type: ouvrage
+  langue: fr
   reference: "Amann B., Jaussaud J., (2019), [ed.], [Défis culturels et sociétaux du management international, Vuibert](https://www.vuibert.fr/ouvrage/9782311406696-les-defis-culturels-et-societaux-du-management-international)"
   cv_court: true
 - annee: 2019
   type: communication
+  langue: en
   reference: "Amann B., Jaussaud J., Jean-Amans C., Zhang Boqi (2019), Chinese investments in French SMEs: creating opportunities by compensating for liabilities? High-End Forum on National and Regional Research, Exchanges and Mutual Learning among Civilizations and Global Governance, Tianjin Foreign Studies University, December 7, 2019"
   cv_court: false
 - annee: 2019
   type: revue
+  langue: en
   reference: Futagami S, Jaussaud J., Schaaper J., Amann B., Mizogushi S., Nakamura H., Clusters and Regional Management Structures of Japanese Multinational Companies in Europe (2019), Research on Working Competency Vol.7, SHIGOTO NOHRYOKU KENKYU（しごと能力研究）
   cv_court: true
 - annee: 2019
   type: revue
+  langue: fr
   reference: "Jaussaud J., Picart L, Amann B., (2019), Au cœur des risques psychosociaux : Facteurs organisationnels déterminants du Burnout des managers, Recherches en Sciences de Gestion n° 134"
   cv_court: true
 - annee: 2019
   type: communication
+  langue: en
   reference: "Amann B., Jaussaud J., (2019), Comparative Study between Japan and France on Employement and Human Resource Developement of Female and Foreign Workers: Diversity and Inclusion, XXIVth Euro-Asia International Research Seminar,Barsac (France)"
   cv_court: false
 - annee: 2019
   type: communication
+  langue: en
   reference: "Amann B., Jaussaud J., Kanie A., Mizoguchi S., Nakamura H. (2019), Toyo Keizai Corporate Social Responsibility (CSR) project: Investigation of CSR Indicators Calculation, XXIVth Euro-Asia International Research Seminar,Barsac (France)"
   cv_court: false
 - annee: 2018
   type: communication
+  langue: en
   reference: "Amann B., Jaussaud J., (2018), Staff Diversity in Japanese firms : Identification of Determining Factors, SASE Conference Global Reordering: Prospects for Equality, Democracy and Justice, Kyoto (Japan)"
   cv_court: false
 - annee: 2018
   type: communication
+  langue: en
   reference: "Amann B., Huang X., Jaussaud J., (2018), Chinese Family and Non-Family Businesses resilience in an economic downturn: The case of the post 2008 chock, XXIIIrd Euro-Asia International Research Seminar, Kwansei Gakuin University, Kobe (Japan)"
   cv_court: false
 - annee: 2018
   type: chapitre
+  langue: en
   reference: "Amann B., Jaussaud J., Schaaper J. (2018), Staffing of French MNCs in Asia: The Roles of Long-Term Expatriates versus Short-Term Assignee, in \"Asian Nations and Multinationals: overcoming the limits to growth\", chap 11, ed. Andreosso B., Jaussaud J., Zolin B., Palgrave Pivot"
   cv_court: false
 - annee: 2018
   type: communication
+  langue: en
   reference: Amann B., Jaussaud J., Schaaper J. (2018), The intermediary role of Regional Headquarters, Afmi 2018, 22 et 23 mai 2018, Paris.
   cv_court: false
 - annee: 2018
   type: communication
+  langue: fr
   reference: "Amann B., Jaussaud J., Schaaper J. (2018), Le rôle intermédiaire des sièges régionaux dans des entreprises, Congrès National de la Recherche des IUT \"CNRIUT’2018\", 7 et 8 juin 2018"
   cv_court: false
 - annee: 2018
   type: communication
+  langue: en
   reference: Amann B., Jaussaud J., Schaaper J. (2018), Regio-centralization of Subsidiary Control; The case of the Asia-Pacific region, XXIIIrd Euro-Asia International Research Seminar,Kwansei Gakuin University, Kobe (Japan)
   cv_court: false
 - annee: 2018
   type: communication
+  langue: en
   reference: "Amann B., Jaussaud J., Kanie A., Mizoguchi S., Nakamura H. (2018), Corporate Social Responsibility: The incidence of foreign participation to the capital in Japanese firms, Euro-Asia International Research Seminar, Kwansei Gakuin University, Kobe (Japan)"
   cv_court: false
 - annee: 2018
   type: communication
+  langue: en
   reference: "Amann B., Jean-Amans C., Jaussaud J., Futagami S. (2018), Emerging countries MNCs: the case of Chinese investments in Japan, XXIIIrd Euro-Asia International Research Seminar, Kwansei Gakuin University, Kobe (Japan)"
   cv_court: false
 - annee: 2017
   type: communication
+  langue: fr
   reference: "Bruno Amann (2017), La gouvernance de l'entreprise familiale, Colloque \"Gouvernance et performance des entreprises familiales”, UCLY-ESDES, Lyon 11 et 12 décembre 2017"
   cv_court: false
 - annee: 2017
   type: communication
+  langue: fr
   reference: "Bruno Amann, Jacques Jaussaud, Ludovic Picard (2017), Au cœur des risques psychosociaux: facteurs organisationnels déterminants du Burnout des managers, Colloque Oriane, Bayonne, 21 et 22 sept"
   cv_court: false
 - annee: 2017
   type: communication
+  langue: fr
   reference: "Amann Bruno, Carole Jean-Amans, Jaussaud Jacques, Zhang Boqi (2017), Multinationales des pays émergeants et PME de pays développés, asymétries réciproques et avantages mutuels : le cas des investissements Chinois en France, 7ème Conférence Atlas AFMI, 2 au 4 mai 2017 à l'INSCAE, Antananarivo (Madagascar)"
   cv_court: false
 - annee: 2017
   type: chapitre
+  langue: fr
   reference: "Amann Bruno, Jaussaud Jacques, (2017), La petite entreprise : perspective économique et de gestion, in La petite entreprise,Dir. Sandrine Teyssière, 2017, LGDJ, Droit & économie, p. 17."
   cv_court: false
 - annee: 2017
   type: chapitre
+  langue: en
   reference: "Amann Bruno, Jaussaud Jacques, Zhang Boqi (2017), Chinese Outward Foreign Direct Investment: Strategies for international development, China’s Global Political Economy: Managerial Perspectives, Taylor, Robert, Jaussaud, Jacques, (Eds), Routledge"
   cv_court: false
 - annee: 2017
   type: communication
+  langue: fr
   reference: "Amann Bruno, Jaussaud Jacques, Zhang Boqi, De quoi dépendent les firmes chinoises à l’internationalisation ? Une revue de littérature, (Accepted), 22nd International Euro-Asia Research Conference, “Overcoming the limits to growth and human development: Managerial Challenges - Asian and European Perspectives”, Parma (Italy), June the 21st to the 23rd, 2017"
   cv_court: false
 - annee: 2017
   type: communication
+  langue: en
   reference: "Amann Bruno, Jaussaud Jacques, Schaaper Johannes (2017), Regio-centralization of Subsidiary Control; The case of French MNCs in the Asia-Pacific region, (Accepted), 22nd International Euro-Asia Research Conference, “Overcoming the limits to growth and human development: Managerial Challenges - Asian and European Perspectives”, Parma (Italy), June the 21st to the 23rd, 2017"
   cv_court: false
 - annee: 2017
   type: communication
+  langue: en
   reference: "Amann Bruno, Jean-Amans Carole, Jaussaud Jacques, Futagami Shiho (2017), Emerging countries MNCs and advanced countries SMEs: reciprocal asymmetries and mutual advantages - the case of Chinese investments in Japan (Accepted), 22nd International Euro-Asia Research Conference, “Overcoming the limits to growth and human development: Managerial Challenges - Asian and European Perspectives”, Parma (Italy), June the 21st to the 23rd, 2017"
   cv_court: false
 - annee: 2017
   type: communication
+  langue: en
   reference: "Amann Bruno, Jaussaud Jacques, Mizoguchi Shuji, Nakamura Hiroyuk i(2017), Corporate Social Responsibility: an in depth analysis of the case of Japanese firms (Accepted), 22nd International Euro-Asia Research Conference, “Overcoming the limits to growth and human development: Managerial Challenges - Asian and European Perspectives”, Parma (Italy), June the 21st to the 23rd, 2017"
   cv_court: false
 - annee: 2017
   type: revue
+  langue: en
   reference: "Amann, B., Jaussaud, J., & Schaaper, J. (2017). Control in Subsidiary Networks in Asia: Toward an Extension of the Centralisation-Formalisation-Socialisation (CFS) Model. *Management International*,* 21*(4), 89-168.,"
   cv_court: true
 - annee: 2016
   type: communication
+  langue: en
   reference: Amann Bruno, Jaussaud Jacques (2016), Emerging-market MNEs and developed-market SMEs. The exemple of Chinese investments in France, Maison Franco-Japonaise, Tokyo December 13th
   cv_court: false
 - annee: 2016
   type: communication
+  langue: en
   reference: "Amann Bruno, Jaussaud Jacques (2016), Corporate Social Responsabilty in Japan: an ongoing research on main determinants, 21st EURO-ASIA, Busan (Korea), 21st to 23rd, June 2016"
   cv_court: false
 - annee: 2016
   type: communication
+  langue: en
   reference: Amann Bruno, Huang Qianxuan, Jaussaud Jacques (2016), Family vs Non Family business in economic downturn, 21st EURO-ASIA, Busan (Korea), 21st to 23rd, June 2016
   cv_court: false
 - annee: 2015
   type: communication
+  langue: fr
   reference: "Amann Bruno (2015), \"La compétitivité des entreprises familiales\", colloque les entreprises familiales, Université de Perpignan Via Domatia, 13 novembre"
   cv_court: false
 - annee: 2015
   type: autre
+  langue: fr
   reference: "Amann Bruno (2015), Note de lecture sur l'ouvrage de Frédéric Burguière \"Institutions et Pratiques Financières au Japon, de 1600 à nos jours\", ed. Hermann, 52 -1, 341-344"
   cv_court: false
 - annee: 2015
   type: communication
+  langue: en
   reference: "Amann Bruno, Jaussaud Jacques, Schaaper Johannes, (2015), Staffing of French MNCs in Asia: The Complementary and Alternative Roles of Expatriates and Flexpatriates, 5eme conférence Atlas-Afmi, Hanoi 12, 13 et 14 mai"
   cv_court: false
 - annee: 2015
   type: chapitre
+  langue: fr
   reference: Amann Bruno, Allouche José, Jaussaud Jacques (2015), Danny Miller, l’architecture de la simplicité, in Les Grands auteurs en entrepreneuriat, dir. Olivier Torrès et Karim Messeghem, EMS.
   cv_court: false
 - annee: 2014
   type: revue
+  langue: fr
   reference: "Amann Bruno (2014), Les performances des entreprises familiales, in la gouvernance des entreprises familiales, Journal des sociétés pp. 12-18 [AERES Droit]"
   cv_court: true
 - annee: 2014
   type: revue
+  langue: en
   reference: "Amann Bruno, Jaussaud Jacques, Schaaper Johannes, (2014), Clusters and Regional Management Structures by Western MNCs in Asia: Overcoming the Distance Challenge, MIR - Management International Review, accepté (Revue classée B, AERES)"
   cv_court: true
 - annee: 2014
   type: communication
+  langue: fr
   reference: "Amann, Bruno, Alaoui Mdaghri Abdelwahad (2014), Les performances des entreprises familiales, Colloque « La gouvernance des entreprises familiales : levier de performance et de pérennité », Colloque Casablanca, 30 avril 2014 (Université Paris Dauphine, Université Hassan 2)"
   cv_court: false
 - annee: 2014
   type: chapitre
+  langue: en
   reference: "Amann Bruno, Futagami Shiiho, Jaussaud Jacques, Mizogishi Shuji, Nakamura Hiryoki, Schaaper Johanes (2014), Localisation of Management Positions in European and Japanese subsidiaries in Asia: a qualitative investigation in Economic Integration in Asia – Towards the delineation of a sustainable path (B. Ardeosso and B. Zolin ed), Palgrave McMillan"
   cv_court: false
 - annee: 2014
   type: chapitre
+  langue: en
   reference: "Amann Bruno, Huang Qianxuan, Jaussaud Jacques (2014), The Influence of Family Control on Business Performance and Financial Structure: A Matched-Pair Investigation of Listed Companies in China, in The Globalisation of Chinese Business: Implications for Multinational Investors, dir. R. Taylor, Chandos ed."
   cv_court: false
 - annee: 2014
   type: chapitre
+  langue: fr
   reference: Amann Bruno, Jaussaud Jacques, Schaaper Johannes, (2014), Howard Prelmutter, in Les Grands auteurs en Management International, dir. Ulrike Mayerofher, EMS.
   cv_court: false
 - annee: 2014
   type: communication
+  langue: en
   reference: "Amann Bruno, Futagami Shiho, Jaussaud Jacques, Mizoguchi Shuji, Nakamura Hiroyuki and Schaaper Johanes. Localisation of Management Positions in European and and Japanese subsidiaries in Asia: a qualitative investigation, accepté, Colloque EuroAsie, May 2014, Yokohama (Japan)"
   cv_court: false
 - annee: 2014
   type: communication
+  langue: fr
   reference: Amann Bruno, Jaussaud Jacques, Martinez Isabelle, CSR in Japan, a two period analysis, accepté, Colloque EuroAsie, May 2014, Yokohama (Japan)
   cv_court: false
 - annee: 2013
   type: communication
+  langue: en
   reference: "Amann Bruno, Jaussaud Jacques, Schaaper Johanes (2013), Control in Subsidiary Networks: The Case of French MNCs in Asia, AIB 2013, Bridging the Divide: Linking IB to Complementary Disciplines and Practice, Istambul, Turkey July 3-6 ([http://aib.msu.edu/events/2013/pdfs/AIB2013_Proceedings.pdf](http://aib.msu.edu/events/2013/pdfs/AIB2013_Proceedings.pdf))"
   cv_court: false
 - annee: 2013
   type: revue
+  langue: fr
   reference: Amann Bruno, Nivoix Sophie, Jaussaud Jacques (2013), Valorisation boursière comparée des entreprises familiales et non familiales au Japon, Ebisu, n° 50
   cv_court: true
 - annee: 2013
   type: revue
+  langue: en
   reference: "Amann Bruno, Jaussaud Jacques, MIZOGUCHI Shuji, NAKAMURA Hiroyuki, Schaaper Johannes, (2013), Human Resource Management in Asian Subsidiaries: Comparison of French and Japanese MNCs, International Journal of Human Resources Management, Volume 24, Issue 7, April 2013, pages 1454-1470"
   cv_court: true
 - annee: 2013
   type: autre
+  langue: fr
   reference: Amann Bruno (2013), Note de lecture sur l’ouvrage Stratégies d’internationalisation, Management International, vol 18 n°1 pp. 166-189.
   cv_court: false
 - annee: 2012
   type: communication
+  langue: en
   reference: "Amann Bruno, Jaussaud Jacques, Schaaper Johanes (2012), Clusters and Regional Management Structures of French Multinational Companies in Asia, AIB (Academy of International Business) 2012, Rethinking the Roles of Business, Government and NGOs in the Global Economy, Washington DC, June 30 – July 3 ([http://aib.msu.edu/events/2012/AIB2012_ConferenceProceedings.pdf](http://aib.msu.edu/events/2012/AIB2012_ConferenceProceedings.pdf))"
   cv_court: false
 - annee: 2012
   type: chapitre
+  langue: fr
   reference: Amann Bruno (2012), La participation financière des salariés, Encyclopédie de Gestion des Ressources humaines, Vuibert
   cv_court: false
 - annee: 2012
   type: chapitre
+  langue: fr
   reference: Amann Bruno, Allouche José (2012), William Ouchi, la régulation par le clan, Encyclopédie de Gestion des Ressources humaines, Vuibert
   cv_court: false
 - annee: 2012
   type: chapitre
+  langue: fr
   reference: Amann Bruno, Jaussaud Jacques, Schaaper Jan, (2012), GRH des multinationales européennes et japonaises en Asie, Encyclopédie de Gestion des Ressources humaines, Vuibert
   cv_court: false
 - annee: 2012
   type: revue
+  langue: en
   reference: "Bruno Amann, Jacques Jaussaud, Isabelle Martinez, (2012), Corporate Social Responsibility in Japan: Family versus Non Family Business differences and determinants, Asian Business and Management, Volume 11, n° 3, June."
   cv_court: true
 - annee: 2011
   type: chapitre
+  langue: fr
   reference: "Amann B. (2011), La gouvernance de l’entreprise familiale : Atouts, risques et vulnérabilités, in La Gouvernance des entreprises familiales (coord. Sophie Schiller), Litec"
   cv_court: false
 - annee: 2011
   type: revue
+  langue: en
   reference: Amann Bruno, Jaussaud Jacques (2011), Family business and non Family business Resilience in an economic downturn Asia Pacific Business Review, pp1-21 (version électronique, August 22)., (B, Harzing)
   cv_court: true
 - annee: 2010
   type: revue
+  langue: en
   reference: "Amann Bruno, Jaussaud Jacques, Mahamat Abdellatif (2010), International Firm Strategies: Is Cultural Distance a Main Determinant?, Transition Studies Review, Volume 17, Issue 4 (2010), Page 611 [B, Harzing, AERES]"
   cv_court: true
 - annee: 2010
   type: revue
+  langue: fr
   reference: "Amann Bruno, Jaussaud Jacques, Mahamat Abdellatif (2010),Stratégie internationale des entreprises japonaises : étude de l’incidence potentielle du caractère familial, EBISU, numero 43, [B Harzing, AERES)]"
   cv_court: true
 - annee: 2010
   type: revue
+  langue: en
   reference: "Amann Bruno, Jaussaud Jacques, Mahamat Abdellatif (2010), Family versus Nonfamily Business: A Comparison of International Strategies. Journal of Family Business Strategy, Volume 1, Issue 2, June 2010, Pages 108-116"
   cv_court: true
 - annee: 2010
   type: communication
+  langue: en
   reference: "Amann Bruno, Jean-Amans Carole (2010), Control of SME’s foreign affiliates : An ongoing research, 16 th Euro-Asia International Seminar, Hiroshima (Japan) september"
   cv_court: false
 - annee: 2010
   type: communication
+  langue: en
   reference: "Amann Bruno, Jaussaud Jacques, Martinez Isabelle (2010), Corporate Social Responsibility in Japan : an Overview of First Findings, 16 th Euro-Asia International Seminar, Hiroshima (Japan) september"
   cv_court: false
 - annee: 2010
   type: communication
+  langue: en
   reference: Amann Bruno, Jaussaud Jacques, Nivoix Sophie (2010), Compared stock market valuation of family and non-family owned firms in Japan, 16 th Euro-Asia International Seminar, Hiroshima (Japan) september
   cv_court: false
 - annee: 2008
   type: revue
+  langue: en
   reference: "Amann Bruno, Allouche José, Jaussaud Jacques, Toshiki Kurashina (2008), The Impact of Family control on the Performance and Financial Characteristics of Family Versus Nonfamily Businesses in Japan: A Matched pair investigation, Family Business Review, Volume 21 Issue 4, Pages 315 - 329"
   audio_fr: /assets/audio/family-control-fr.mp3
   cv_court: false
 - annee: 2008
   type: communication
+  langue: fr
   reference: "Amann Bruno, Jaussaud Jacques, Mahamat Abdellatif (2008), L’implantation des filiales à l’étranger : entreprises familiales vs non familiales – une approche en terme de risques : le cas du Japon -, XIVe séminaire euro-asie, Bali, Août"
   cv_court: false
 - annee: 2008
   type: communication
+  langue: en
   reference: "Amann Bruno, Allouche José, Garaudel Pierre, (2008), Distinctiveness of family business : the impact of stock market listing and family shareholding, 2008 Academy of Management meeting, August 8-13, Anaheim, California"
   cv_court: false
 - annee: 2008
   type: revue
+  langue: fr
   reference: "Amann Bruno, Allouche José, Garaudel Pierre, (2008), Performances et caractéristiques financières comparées des entreprises familiales et non familiales : le rôle modérateur de la cotation en bourse et du degré de contrôle actionnarial, Journal des Entreprises Familiales, N° 1 – 2008"
   cv_court: false
 - annee: 2008
   type: chapitre
+  langue: fr
   reference: Amann Bruno (2008), Droit, Organisations et Gestion, réflexions sur quelques rapports significatifs, in Cabanis A. et Penan H. (ed), Mélanges en l’honneur du Professeur P. Spitéri, (juillet)
   cv_court: false
 - annee: 2008
   type: chapitre
+  langue: en
   reference: Amann Bruno, Jaussaud Jacques (2008), Family business in Japan, an overview, in Adreosso B. et Zolin B. (dir) « Asia and Europe - Connections and Contrasts », Ca’ Foscari Press, Venise (juillet)
   cv_court: false
 - annee: 2008
   type: chapitre
+  langue: fr
   reference: "Amann Bruno, Allouche José (2008), Nature et performances des entreprises familiales, in Schmidt Géraldine (dir), \"Le management, fondements et renouvellements\", ed. Sciences Humaines (septembre)"
   cv_court: false
 - annee: 2007
   type: communication
+  langue: fr
   reference: "Amann Bruno, Allouche José, Garaudel Pierre, (2007), Performances et caractéristiques financières comparées des entreprises familiales et non familiales : le rôle modérateur de la cotation en bourse et du degré de contrôle actionnarial. Le cas français, Colloque AIMS, Montréal/Canada, Juin 2007"
   cv_court: false
 - annee: 2007
   type: communication
+  langue: en
   reference: "Amann Bruno, Allouche José, Jaussaud Jacques, Toshiki Kurashina (2007), Do Ownership and Family Control influence Financial characteristics and Performances? - The case of Japan – 12th Euro-Asia International Research Seminar, \"Regional Perspective\", Sapporo, Japan, 2007, June 2, and 3thd"
   cv_court: false
 - annee: 2007
   type: revue
+  langue: fr
   reference: "Amann Bruno, Caby Jerome, Jaussaud jacques, Piñiero Juan (2007), Activisme des actionnaires et responsabilité sociale des entreprises : une comparaison Espagne – France - États-Unis- Japon, ROR (Revue des Organisations Responsables), n°3"
   cv_court: false
 - annee: 2007
   type: chapitre
+  langue: en
   reference: "Amann Bruno, Caby Jerome, Jaussaud Jacques, Piñiero, Juan (2007) Shareholder activism for CSR: law and practice in the US, Japan, France and Spain, in Doreen McBarnet, Aurora Voiculescu & Tom Campbell The New Corporate Accountability: Corporate Social Responsibility and the Law, Cambridge University Press"
   cv_court: false
 - annee: 2006
   type: communication
+  langue: en
   reference: "Amann Bruno, Allouche José, Jaussaud Jacques, (2006), Comparative Performance and Financial Characteristics of Family versus Non Family Business in Japan : an Empirical Research, Eleventh Euro-Asia International Research Seminar, \"Regional Perspective\", Barcelona, Spain, 2004, June 2, and 3thd"
   cv_court: false
 - annee: 2006
   type: chapitre
+  langue: fr
   reference: "Amann Bruno, Jaussaud Jacques (2006), L’entreprise familiale : le cas du Japon à la lumière des recherches sur les cas occidentaux, in Gan Xiaqing, Dzever Sam, Jaussaud Jacques (eds), Economic Dynamism and Business Stategie in Asia : Implications for European Firms, China economic Publishing, Beijin"
   cv_court: false
 - annee: 2005
   type: communication
+  langue: en
   reference: "Amann Bruno., Jaussaud Jacques., Matsui Tomoyo (2005), Comparative Performance and Financial Characteristics of Family versus Non Family Business in Japan, Eleventh Euro-Asia International Research Seminar, \"Regional Perspective\", Nanchang, China, 2004, May 19 and 20"
   cv_court: false
 - annee: 2005
   type: ouvrage
+  langue: fr
   reference: Bruno, Lethielleux Laetitia (2005), Le droit, outil de gestion, ed. Pearson, Education, septembre
   cv_court: false
 - annee: 2004
   type: revue
+  langue: fr
   reference: Amann Bruno, Jaussaud Jacques, Kanie Akira (2004), Activisme des actionnaires et responsabilité sociale de l’entreprise au Japon, Ebisu, Études japonaises, Automne Hiver 2004 pp. 153-171
   cv_court: false
 - annee: 2003
   type: communication-np
+  langue: fr
   reference: "Amann Bruno (2003), Les spécificités des entreprises familiales, Colloque \"La PME et le droit », Université de Pau et des Pays de l'Adour, 28 mars 2003"
   cv_court: false
 - annee: 2003
   type: revue
+  langue: fr
   reference: "Amann Bruno, Allouche José (2003), L'actionnaire dirigeant d'entreprises familiales, Revue Française de Gestion, L’actionnaire vol.. 28, n° 141 pp. 109-130."
   cv_court: false
 - annee: 2003
   type: chapitre
+  langue: fr
   reference: "Amann Bruno (2003), Ingéniérie financière et innovation, in Penan H. (dir.) Encyclopédie de l'innovation, ed. Liaisons"
   cv_court: false
 - annee: 2003
   type: chapitre
+  langue: fr
   reference: Amann Bruno, Allouche José (2003), Ouchi, la régulation par le clan in Encyclopédie des Ressources Humaines, Vuibert, Sous la Direction de José Allouche (septembre)
   cv_court: false
 - annee: 2003
   type: chapitre
+  langue: fr
   reference: Amann Bruno (2003), La participation financière des salariés in Encyclopédie des Ressources Humaines, Vuibert, Sous la Direction de José Allouche (septembre)
   cv_court: false
 - annee: 2002
   type: communication
+  langue: en
   reference: "Amann Bruno, Allouche José (2002), Family Business: Explaning Performances By Social Networks, communication acceptée au 6ème congrès mondial de l' International Federation of Scholarly Associations of Management (IFSAM), Management In A Global Context: Prospects For The 21st Cent, Gold Coast - Queensland – Australia"
   cv_court: false
 - annee: 2002
   type: chapitre
+  langue: fr
   reference: "Amann Bruno, Louart Pierre (2002), La notion de territoire en Sciences de Gestion, Mélanges en l’honneur du Professeur Robert Le Duff (Presses de l'Université de Rouen)"
   cv_court: false
 - annee: 2002
   type: chapitre
+  langue: fr
   reference: "Amann Bruno, Allouche José (2002), Entreprises familiales: une explication de la performance par les réseaux sociaux, in La construction sociale de l’enetreprise. Autour des travaux de Mark Granovetter sous la direction d’I. Huault, EMS Management et société"
   cv_court: false
 - annee: 2002
   type: chapitre
+  langue: fr
   reference: Amann Bruno (2002), État de la recherche en politiques juridiques, XVIe journées des IAE
   cv_court: false
 - annee: 2002
   type: communication-np
+  langue: fr
   reference: Amann Bruno, Allouche José (2002), Commissariat général au Plan, structures de propriété, performances des entreprises familiales et mondialisation, 06 mars 2002
   cv_court: false
 - annee: 2002
   type: communication-np
+  langue: fr
   reference: "Amann Bruno (2002), L'épargne salariale au cœur de la relation entreprise/personnel, Colloque \"Comment optimiser la place du salarié dans l'entreprise?\", Université de Pau et des Pays de l'Adour, 22 mars 2002"
   cv_court: false
 - annee: 2001
   type: revue
+  langue: fr
   reference: "Amann Bruno, Saboly Michèle (2001), L 'entreprise \"Amouroux Frères\" au début du siècle, paradoxes d'une gestion atypique, Entreprises et Histoire, décembre"
   cv_court: false
 - annee: 2001
   type: chapitre
+  langue: fr
   reference: "Amann Bruno, Allouche José (2001), L’entreprise familiale et l’argent, 9e rencontres Histoire, Gestion, Organisations, Presses de l'Université Toulouse 1 pp. 287-297"
   cv_court: false
 - annee: 2000
   type: revue
+  langue: fr
   reference: "Amann Bruno, Allouche José (2000), L' entreprise familiale, un état de l'art, Finance, Contrôle, Stratégie, vol. 3, n° 1 pp. 33-79"
   cv_court: false
 - annee: 2000
   type: chapitre
+  langue: fr
   reference: "Amann Bruno (2000), Entreprise familiale et entrepreneuriat, in Verstraete T (dir), Histoire d'entreprendre - les réalités de l'entrepreneuriat, Edition Management et Société"
   cv_court: false
 - annee: 2000
   type: chapitre
+  langue: fr
   reference: "Amann Bruno, Allouche José (2000), Croyance et croyances, pregnance et pertinence dans la littérature managériale, 8e rencontres Histoire, Gestion, Organisations, Presses de l'Université Toulouse 1 pp. 481-498"
   cv_court: false
 - annee: 2000
   type: ouvrage
+  langue: fr
   reference: Amann Bruno, Dupuy Yves, Rigal Jean-Jacques, dir (2000), Recherches et pratiques en Sciences de Gestion, Dalloz Thèmes et commentaires
   cv_court: false
 - annee: 2000
   type: ouvrage
+  langue: fr
   reference: Amann Bruno, dir (2000), Gestion et Droit, Dalloz, Thèmes et commentaires
   cv_court: false
 - annee: 1999
   type: autre
+  langue: fr
   reference: "Amann Bruno, Allouche José (1999), L'entreprise familiale: un état de la recherche, Cahiers du LAREGO, UVSQ, septembre"
   cv_court: false
 - annee: 1999
   type: autre
+  langue: fr
   reference: "Amann Bruno, Allouche José (1999), La confiance: une explication des performances des entreprises familiales, Cahier du LAREGO février"
   cv_court: false
 - annee: 1999
   type: autre
+  langue: fr
   reference: "Amann Bruno, Allouche José (1999), État de l'art sur les entreprises familiales, version révisée, Cahier du LAREGO, décembre"
   cv_court: false
 - annee: 1999
   type: autre
+  langue: fr
   reference: Amann Bruno, Allouche José (1999), Projet de recherche sur les entreprises familiales, Cahier du LAREGO, décembre
   cv_court: false
 - annee: 1999
   type: chapitre
+  langue: fr
   reference: "Amann Bruno (1999), Collaboration à l' Encyclopédie de Gestion Dalloz, éditions Dalloz"
   cv_court: false
 - annee: 1999
   type: chapitre
+  langue: fr
   reference: Amann Bruno (1999) La théorie des droits de propriété, in Koenig G., De nouvelles théories pour gérer l’entreprise du XXIè siècle, Economica
   cv_court: false
 - annee: 1999
   type: chapitre
+  langue: fr
   reference: Amann Bruno (1999), Brevet, Encyclopédie de Gestion Dalloz
   cv_court: false
 - annee: 1999
   type: chapitre
+  langue: fr
   reference: Amann Bruno (1999), Commission des opérations de bourse, Encyclopédie de Gestion Dalloz
   cv_court: false
 - annee: 1999
   type: chapitre
+  langue: fr
   reference: Amann Bruno (1999), Conventions de portage, Encyclopédie de Gestion Dalloz
   cv_court: false
 - annee: 1999
   type: chapitre
+  langue: fr
   reference: Amann Bruno (1999), Conventions entre associés, Encyclopédie de Gestion Dalloz
   cv_court: false
 - annee: 1999
   type: chapitre
+  langue: fr
   reference: Amann Bruno (1999), Crédit-bail, Encyclopédie de Gestion Dalloz
   cv_court: false
 - annee: 1999
   type: chapitre
+  langue: fr
   reference: Amann Bruno (1999), Droit comptable, Encyclopédie de Gestion Dalloz
   cv_court: false
 - annee: 1999
   type: chapitre
+  langue: fr
   reference: Amann Bruno (1999), Droit de la franchise, Encyclopédie de Gestion Dalloz
   cv_court: false
 - annee: 1999
   type: chapitre
+  langue: fr
   reference: "Amann Bruno (1999), Environnement européen de l'entreprise, Encyclopédie de Gestion Dalloz"
   cv_court: false
 - annee: 1999
   type: chapitre
+  langue: fr
   reference: Amann Bruno (1999), Fiducie, Encyclopédie de Gestion Dalloz
   cv_court: false
 - annee: 1999
   type: chapitre
+  langue: fr
   reference: Amann Bruno (1999), Groupes de sociétés, Encyclopédie de Gestion Dalloz
   cv_court: false
 - annee: 1999
   type: chapitre
+  langue: fr
   reference: Amann Bruno (1999), Contrats internationaux, Encyclopédie de Gestion Dalloz
   cv_court: false
 - annee: 1999
   type: chapitre
+  langue: fr
   reference: Amann Bruno (1999), Moyens de paiement, Encyclopédie de Gestion Dalloz
   cv_court: false
 - annee: 1999
   type: chapitre
+  langue: fr
   reference: Amann Bruno (1999), Théorie des droits de propriété, Encyclopédie de Gestion Dalloz
   cv_court: false
 - annee: 1999
   type: chapitre
+  langue: fr
   reference: Amann Bruno (1999), Propriété comme garantie, Encyclopédie de Gestion Dalloz
   cv_court: false
 - annee: 1999
   type: chapitre
+  langue: fr
   reference: Amann Bruno (1999), Propriété industrielle, Encyclopédie de Gestion Dalloz
   cv_court: false
 - annee: 1999
   type: chapitre
+  langue: fr
   reference: Amann Bruno (1999), Protection des créations informatiques, Encyclopédie de Gestion Dalloz
   cv_court: false
 - annee: 1999
   type: chapitre
+  langue: fr
   reference: "Amann Bruno (1999), Rachat de l'entreprise par ses salariés, Encyclopédie de Gestion Dalloz"
   cv_court: false
 - annee: 1999
   type: chapitre
+  langue: fr
   reference: "Amann Bruno (1999), Responsabilité pénale du chef d'entreprise, Encyclopédie de Gestion Dalloz"
   cv_court: false
 - annee: 1999
   type: chapitre
+  langue: fr
   reference: Amann Bruno (1999), Restructuration des sociétés, Encyclopédie de Gestion Dalloz
   cv_court: false
 - annee: 1999
   type: chapitre
+  langue: fr
   reference: Amann Bruno (1999), Sociétés, Encyclopédie de Gestion Dalloz
   cv_court: false
 - annee: 1999
   type: chapitre
+  langue: fr
   reference: Amann Bruno (1999), Sous-traitance, Encyclopédie de Gestion Dalloz
   cv_court: false
 - annee: 1999
   type: chapitre
+  langue: fr
   reference: "Amann Bruno (1999), Transmission de l'entreprise, Encyclopédie de Gestion Dalloz"
   cv_court: false
 - annee: 1998
   type: communication-np
+  langue: fr
   reference: Amann Bruno, Penan Hervé (1998), Le processus de décision collective, une perspective historique, communication présentée aux 7e rencontres Histoire, Gestion, Organisations, Toulouse
   cv_court: false
 - annee: 1998
   type: revue
+  langue: fr
   reference: Amann Bruno, Allouche José (1998), La confiance, une explication des performances des entreprises familiales, Économie et Société, série gestion septembre 1998.
   cv_court: false
 - annee: 1998
   type: revue
+  langue: fr
   reference: Amann Bruno (1998), Innovations technologiques et droits de propriété, Management, Technologie, Innovation, n°1 pp. 43-63
   cv_court: false
 - annee: 1998
   type: autre
+  langue: fr
   reference: "Amann Bruno, Allouche José (1998), Le second marché et l'histoire de l' entrepreneuriat français, Cahier du LAREGO mars"
   cv_court: false
 - annee: 1998
   type: autre
+  langue: fr
   reference: "Amann Bruno, Allouche José (1998), Le second marché au coeur de l'aventure entrepreneuriale française, Plaquette officielle de l'anniversaire du Comité du second marché"
   cv_court: false
 - annee: 1998
   type: autre
+  langue: fr
   reference: "Amann Bruno, Allouche José (1998), L'entrepreneuriat français et le second marché, Cahiers du LAREGO, UVSQ, avril"
   cv_court: false
 - annee: 1997
   type: autre
+  langue: fr
   reference: "Amann Bruno, Allouche José (1997), Le retour triomphant du capitalisme familial, Harvard l'expansion"
   cv_court: false
 - annee: 1997
   type: communication
+  langue: fr
   reference: Amann Bruno (1997), État des thèses en politique juridique, Communication présentée aux XIVe journées des IAE à Nantes
   cv_court: false
 - annee: 1997
   type: revue
+  langue: fr
   reference: Amann Bruno, Allouche José (1997), La dynamique financière et économique des entreprises familiales, SIC n° 157, 11
   cv_court: false
 - annee: 1997
   type: revue
+  langue: fr
   reference: "Amann Bruno, Allouche José (1997), Le triomphe du capitalisme familial, version révisée, L'expansion Management Review, Juin 1997, n° 85 p. 92"
   cv_court: false
 - annee: 1994
   type: communication
+  langue: fr
   reference: "Amann Bruno (1994), Etat de l'art en politique juridique: synthèse des 12 derniers mois, communication présentée aux XIIe journées nationales des IAE Montpellier, 2 et 3/02/1994, Cahiers de recherche de l'ESUG 1994, n° 122"
   cv_court: false
 - annee: 1994
   type: autre
+  langue: fr
   reference: "Amann Bruno (1994), Les privatisations en France, réflexions sur des expériences européennes significatives, Cahiers de recherche de l'ESUG (Toulouse) n°123"
   cv_court: false
 - annee: 1994
   type: autre
+  langue: fr
   reference: "Amann Bruno (1994), Les privatisations en France, cadre juridique, Cahiers de recherche de l'ESUG (Toulouse) n°122"
   cv_court: false
 - annee: 1993
   type: these
+  langue: fr
   reference: "Propriété et maîtrise des risques dans l'entreprise, Thèse doctorat en Sciences de Gestion, Université Toulouse 1, 1993, mention très honorable avec félicitations du jury, proposition à une subvention d'aide à la publication. Directeur: Monsieur le Professeur Alain Couret"
   cv_court: false
 - annee: 1992
   type: communication
+  langue: fr
   reference: Amann Bruno (1992), Fiducie et gestion, Journées des IAE, Nancy, in Economica éd. pp. 911-924
   cv_court: false
 - annee: 1992
   type: revue
+  langue: fr
   reference: "Amann Bruno, Alain Couret (1992), Les relations actionnaires-dirigeants selon les types d'organisations, Revue Française de Gestion, n° 87 pp. 93-102"
   cv_court: false
 - annee: 1992
   type: ouvrage
+  langue: fr
   reference: Amann Bruno (1992), Cessions et acquisitions d’entreprises, Vuibert Entreprises
   cv_court: false
 - annee: 1992
   type: chapitre
+  langue: fr
   reference: "Amann Bruno (1992), La gestion juridique de l'entreprise, Encyclopédie de Gestion Vuibert, T 1. pp. 582-609"
   cv_court: false
 - annee: 1991
   type: revue
+  langue: fr
   reference: "Amann Bruno (1991), L'open bid : Aspects juridiques et pratiques, Petites Affiches n° 76, 77 n° 78"
   cv_court: false
 - annee: 1989
   type: communication
+  langue: fr
   reference: "Amann Bruno (1989), La part de l'État et de la fédération dans la le droit des sociétés anonymes aux États-Unis, Presse de l'IEP Toulouse"
   cv_court: false
 - annee: 1989
   type: revue
+  langue: fr
   reference: "Amann Bruno (1989), La sous-traitance au cas de difficultés de l'entreprise, Petites Affiches n° 78 et n° 80"
   cv_court: false
 - annee: 1987
   type: revue
+  langue: fr
   reference: Amann Bruno (1987), Quelques précisions sur la nature juridique de la clause de réserve de propriété et sur sa transmissibilité, Petites Affiches n° 92 août
   cv_court: false
 - annee: 1986
   type: revue
+  langue: fr
   reference: "Amann Bruno (1986), Les intérêts juridiques et fiscaux à la création d'une EURL, Petites Affiches n° 92 et 93, août 1986"
   cv_court: false

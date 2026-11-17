@@ -12,3 +12,4 @@
 /index.php/activites/theses/dba              /activites/theses/dba/              301
 /index.php/*                                 /                                   301
 /administrator/*                             /                                   301
+/favicon.ico  /assets/img/favicon.svg  301
