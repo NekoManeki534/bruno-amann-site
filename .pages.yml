@@ -8,10 +8,7 @@ content:
   type: file
   path: src/_data/publications.yml
   format: yaml
-  list:
-    collapsible:
-      collapsed: true
-      summary: '{annee} – {reference}'
+  list: true
   fields:
   - name: annee
     label: Année
@@ -129,10 +126,7 @@ content:
   - name: acces
     label: Accès rapides (cartes)
     type: object
-    list:
-      collapsible:
-        collapsed: true
-        summary: '{titre}'
+    list: true
     fields:
     - name: titre
       label: Titre
