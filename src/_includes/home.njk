@@ -1,0 +1,39 @@
+---
+layout: layouts/base.njk
+---
+{%- set t = site[lang] -%}
+<div class="accueil">
+  <section class="presentation" aria-labelledby="titre-page">
+    <h1 id="titre-page">{{ site.nom }}</h1>
+    <p class="chapo">{{ t.titre }}</p>
+    {{ content | safe }}
+  </section>
+
+  <section aria-labelledby="titre-acces">
+    <h2 id="titre-acces">{{ accesTitre }}</h2>
+    <ul class="cartes">
+      {%- for c in acces %}
+      <li class="carte">
+        <h3><a href="{{ c.url }}">{{ c.titre }}</a></h3>
+        <p>{{ c.texte }}</p>
+      </li>
+      {%- endfor %}
+    </ul>
+  </section>
+
+  <section aria-labelledby="titre-recents">
+    <h2 id="titre-recents">{{ recentsTitre }}</h2>
+    <ul class="pubs pubs--puces">
+      {%- for p in publications | numbered | limit(recentsNombre or 5) %}
+      <li>{% include "partials/pub.njk" %}</li>
+      {%- endfor %}
+    </ul>
+    <p><a href="{{ t.sousNav.travaux[0].url }}">{{ recentsLien }}</a></p>
+  </section>
+
+  <section aria-labelledby="titre-contact">
+    <h2 id="titre-contact">{{ contactTitre }}</h2>
+    {{ contact | md | safe }}
+    <p><a class="bouton" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+  </section>
+</div>

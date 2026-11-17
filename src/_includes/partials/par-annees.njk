@@ -1,0 +1,17 @@
+{%- set t = site[lang] -%}
+{%- set pubs = publications | numbered -%}
+{%- set groupes = pubs | byYear -%}
+<p class="compte">{{ pubs.length }} {{ t.references }}, {{ (groupes | last).annee }}–{{ groupes[0].annee }}.</p>
+<nav class="annees" aria-label="{{ t.annees }}">
+  <ul>{% for g in groupes %}<li><a href="#a{{ g.annee }}">{{ g.annee }}</a></li>{% endfor %}</ul>
+</nav>
+{%- for g in groupes %}
+<section class="groupe" aria-labelledby="a{{ g.annee }}">
+  <h2 id="a{{ g.annee }}">{{ g.annee }}</h2>
+  <ol class="pubs" reversed start="{{ g.items[0].num }}">
+    {%- for p in g.items %}
+    <li>{% include "partials/pub.njk" %}</li>
+    {%- endfor %}
+  </ol>
+</section>
+{%- endfor %}

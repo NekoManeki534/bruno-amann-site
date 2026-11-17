@@ -1,0 +1,9 @@
+{#- Une référence ; variables attendues : p, t -#}
+{{ p.reference | mdi | safe }}
+{%- set afr = p.audio_fr | existe %}{% set aen = p.audio_en | existe %}
+{%- if afr or aen %}
+<span class="audio">
+  {%- if afr %}<a href="{{ p.audio_fr }}">{{ t.ecouterFr }}</a>{% endif %}
+  {%- if aen %}<a href="{{ p.audio_en }}">{{ t.ecouterEn }}</a>{% endif %}
+</span>
+{%- endif %}

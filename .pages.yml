@@ -1,0 +1,177 @@
+# Configuration de l'interface d'édition Pages CMS (https://app.pagescms.org)
+media:
+  input: src/assets/img
+  output: /assets/img
+content:
+- name: publications
+  label: Publications
+  type: file
+  path: src/_data/publications.yml
+  format: yaml
+  list: true
+  fields:
+  - name: annee
+    label: Année
+    type: number
+    required: true
+  - name: type
+    label: Catégorie
+    type: select
+    required: true
+    options:
+      values:
+      - value: ouvrage
+        label: Ouvrage / direction d'ouvrage
+      - value: revue
+        label: Article de revue à comité de lecture
+      - value: chapitre
+        label: Chapitre d'ouvrage collectif
+      - value: communication
+        label: Communication (colloque à comité)
+      - value: communication-np
+        label: Communication non publiée
+      - value: autre
+        label: Cahier de recherche, note de lecture, autre
+      - value: these
+        label: Travail doctoral
+  - name: reference
+    label: Référence complète
+    description: 'Auteurs (année), titre, revue ou ouvrage… L''italique s''écrit entre astérisques : *in*. Un lien : [texte](https://adresse).'
+    type: text
+    required: true
+  - name: cv_court
+    label: Afficher dans le CV court
+    type: boolean
+  - name: audio_fr
+    label: Présentation audio en français (fichier)
+    type: string
+  - name: audio_en
+    label: Présentation audio en anglais (fichier)
+    type: string
+- name: pages-fr
+  label: Pages (français)
+  type: collection
+  path: src/pages/fr
+  format: yaml-frontmatter
+  exclude:
+  - fr.11tydata.js
+  - accueil.md
+  view:
+    primary: title
+  fields: &id001
+  - name: title
+    label: Titre
+    type: string
+    required: true
+  - name: chapo
+    label: Sous-titre (facultatif)
+    type: string
+  - name: body
+    label: Contenu
+    type: rich-text
+    options:
+      format: markdown
+  - name: adresse
+    label: Adresse de la page (facultatif, ex. /activites/nouvelle-page/)
+    type: string
+  - name: traduction
+    label: Adresse de la version dans l'autre langue (facultatif)
+    type: string
+  - name: publicationsTitre
+    label: 'CV : titre de la partie publications'
+    type: string
+  - name: publicationsIntro
+    label: 'CV : texte avant les publications'
+    type: text
+  - name: suite
+    label: 'CV : texte après les publications'
+    type: rich-text
+    options:
+      format: markdown
+  - name: rubrique
+    type: string
+    hidden: true
+  - name: layout
+    type: string
+    hidden: true
+    default: page.njk
+  - name: selection
+    type: string
+    hidden: true
+- name: pages-en
+  label: Pages (English)
+  type: collection
+  path: src/pages/en
+  format: yaml-frontmatter
+  exclude:
+  - en.11tydata.js
+  - home.md
+  view:
+    primary: title
+  fields: *id001
+- name: accueil-fr
+  label: Page d'accueil (français)
+  type: file
+  path: src/pages/fr/accueil.md
+  format: yaml-frontmatter
+  fields: &id002
+  - name: body
+    label: Présentation
+    type: rich-text
+    options:
+      format: markdown
+  - name: accesTitre
+    label: Titre des accès rapides
+    type: string
+  - name: acces
+    label: Accès rapides (cartes)
+    type: object
+    list: true
+    fields:
+    - name: titre
+      label: Titre
+      type: string
+    - name: url
+      label: Lien
+      type: string
+    - name: texte
+      label: Texte
+      type: text
+  - name: recentsTitre
+    label: Titre des travaux récents
+    type: string
+  - name: recentsNombre
+    label: Nombre de travaux récents affichés
+    type: number
+  - name: recentsLien
+    label: Texte du lien vers tous les travaux
+    type: string
+  - name: contactTitre
+    label: Titre de la partie contact
+    type: string
+  - name: contact
+    label: Texte de contact
+    type: text
+  - name: title
+    type: string
+    hidden: true
+  - name: adresse
+    type: string
+    hidden: true
+  - name: traduction
+    type: string
+    hidden: true
+  - name: layout
+    type: string
+    hidden: true
+- name: accueil-en
+  label: Home page (English)
+  type: file
+  path: src/pages/en/home.md
+  format: yaml-frontmatter
+  fields: *id002
+- name: reglages
+  label: Réglages du site (menus, profils)
+  type: file
+  path: src/_data/site.js
+  format: code

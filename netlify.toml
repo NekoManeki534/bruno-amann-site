@@ -1,0 +1,14 @@
+[build]
+  command = "npm ci && npm run build"
+  publish = "_site"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "DENY"
+    Content-Security-Policy = "default-src 'self'; img-src 'self' https:; style-src 'self'; script-src 'none'; media-src 'self'; frame-ancestors 'none'"

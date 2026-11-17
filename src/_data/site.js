@@ -1,0 +1,71 @@
+export default {
+  nom: "Bruno Amann",
+  url: "https://www.bruno-amann.fr",
+  email: "mail@bruno-amann.fr",
+  profils: [
+    { nom: "Google Scholar", url: "https://scholar.google.fr/citations?user=z8tCSoQAAAAJ&hl=fr" },
+    { nom: "ResearchGate", url: "https://www.researchgate.net/profile/Bruno_Amann" },
+  ],
+  fr: {
+    titre: "Professeur des universités en sciences de gestion",
+    evitement: "Aller au contenu",
+    navLabel: "Navigation principale",
+    sousNavLabel: "Dans cette rubrique",
+    langue: "English",
+    langueCode: "en",
+    accueilLangue: "/en/",
+    piedTitre: "Profils et contact",
+    nav: [
+      { titre: "Accueil", url: "/" },
+      { titre: "Travaux", url: "/presentation/travaux-par-annees/", rubrique: "travaux" },
+      { titre: "CV", url: "/presentation/cv-court/", rubrique: "cv" },
+      { titre: "Thèses", url: "/activites/theses/soutenues/", rubrique: "theses" },
+      { titre: "Bilan d’activité", url: "/activites/bilan-activite/" },
+    ],
+    sousNav: {
+      travaux: [
+        { titre: "Par années", url: "/presentation/travaux-par-annees/" },
+        { titre: "Par catégories", url: "/presentation/cv-par-categories/" },
+      ],
+      cv: [
+        { titre: "CV court", url: "/presentation/cv-court/" },
+        { titre: "CV long", url: "/presentation/cv-long/" },
+      ],
+      theses: [
+        { titre: "Thèses soutenues", url: "/activites/theses/soutenues/" },
+        { titre: "Thèses en cours", url: "/activites/theses/en-cours/" },
+        { titre: "Thèses de DBA", url: "/activites/theses/dba/" },
+      ],
+    },
+    ecouterFr: "Écouter une présentation (français)",
+    ecouterEn: "Écouter une présentation (anglais)",
+    annees: "Accès par année",
+    references: "références",
+  },
+  en: {
+    titre: "Professor of Management Science",
+    evitement: "Skip to content",
+    navLabel: "Main navigation",
+    sousNavLabel: "In this section",
+    langue: "Français",
+    langueCode: "fr",
+    accueilLangue: "/",
+    piedTitre: "Profiles and contact",
+    nav: [
+      { titre: "Home", url: "/en/" },
+      { titre: "Publications", url: "/en/publications/", rubrique: "travaux" },
+      { titre: "CV", url: "/en/cv/" },
+      { titre: "PhD supervision", url: "/en/phd-supervision/" },
+    ],
+    sousNav: {
+      travaux: [
+        { titre: "By year", url: "/en/publications/" },
+        { titre: "By category", url: "/en/publications/by-category/" },
+      ],
+    },
+    ecouterFr: "Listen to a presentation (French)",
+    ecouterEn: "Listen to a presentation (English)",
+    annees: "Jump to year",
+    references: "references",
+  },
+};

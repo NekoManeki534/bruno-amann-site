@@ -1,0 +1,58 @@
+{%- set t = site[lang] -%}
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if title and page.url != "/" and page.url != "/en/" %}{{ title }} – {% endif %}{{ site.nom }}</title>
+  <meta name="description" content="{{ description or (site.nom + ' – ' + t.titre) }}">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  {%- if traduction %}
+  <link rel="alternate" hreflang="{{ t.langueCode }}" href="{{ traduction }}">
+  {%- endif %}
+</head>
+<body>
+  <a class="evitement" href="#contenu">{{ t.evitement }}</a>
+  <header class="entete">
+    <div class="conteneur entete__ligne">
+      <p class="entete__nom"><a href="{{ '/' if lang == 'fr' else '/en/' }}">{{ site.nom }}</a>
+        <span class="entete__titre">{{ t.titre }}</span></p>
+      <a class="entete__langue" href="{{ traduction or t.accueilLangue }}" hreflang="{{ t.langueCode }}" lang="{{ t.langueCode }}">{{ t.langue }}</a>
+    </div>
+    <nav class="conteneur nav" aria-label="{{ t.navLabel }}">
+      <ul>
+        {%- for item in t.nav %}
+        {%- set actif = (page.url == item.url) or (rubrique and rubrique == item.rubrique) %}
+        <li><a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% elif actif %} class="actif"{% endif %}>{{ item.titre }}</a></li>
+        {%- endfor %}
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenu" class="conteneur" tabindex="-1">
+    {%- if rubrique and t.sousNav[rubrique] %}
+    <nav class="sous-nav" aria-label="{{ t.sousNavLabel }}">
+      <ul>
+        {%- for item in t.sousNav[rubrique] %}
+        <li><a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.titre }}</a></li>
+        {%- endfor %}
+      </ul>
+    </nav>
+    {%- endif %}
+    {{ content | safe }}
+  </main>
+
+  <footer class="pied">
+    <div class="conteneur">
+      <h2 class="pied__titre">{{ t.piedTitre }}</h2>
+      <ul class="pied__liens">
+        {%- for p in site.profils %}
+        <li><a href="{{ p.url }}">{{ p.nom }}</a></li>
+        {%- endfor %}
+        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+      </ul>
+      <p class="pied__note">© {{ site.nom }}</p>
+    </div>
+  </footer>
+</body>
+</html>

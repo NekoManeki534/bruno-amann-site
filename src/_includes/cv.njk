@@ -1,0 +1,16 @@
+---
+layout: layouts/base.njk
+---
+<article class="texte cv">
+  <h1>{{ title }}</h1>
+  {%- if chapo %}<p class="chapo">{{ chapo }}</p>{% endif %}
+  {{ content | safe }}
+  {%- if publicationsTitre %}<h2>{{ publicationsTitre }}</h2>{% endif %}
+  {%- if publicationsIntro %}{{ publicationsIntro | md | safe }}{% endif %}
+  {%- set niveau = 3 %}
+  {%- if selection == "cv_court" %}
+    {%- set pubsSelection = publications | numbered | where("cv_court", true) %}
+  {%- endif %}
+  {% include "partials/par-categories.njk" %}
+  {{ suite | md | safe }}
+</article>

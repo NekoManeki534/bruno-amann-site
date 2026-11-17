@@ -1,0 +1,8 @@
+---
+layout: layouts/base.njk
+---
+<article class="texte">
+  <h1>{{ title }}</h1>
+  {%- if chapo %}<p class="chapo">{{ chapo }}</p>{% endif %}
+  {{ content | safe }}
+</article>

@@ -1,0 +1,12 @@
+{%- set t = site[lang] -%}
+{%- set selection = pubsSelection or (publications | numbered) -%}
+{%- for g in selection | byType %}
+<section class="groupe" aria-labelledby="c-{{ g.type }}">
+  <h{{ niveau or 2 }} id="c-{{ g.type }}">{{ types[g.type][lang] }} <span class="nb">({{ g.items.length }})</span></h{{ niveau or 2 }}>
+  <ul class="pubs pubs--puces">
+    {%- for p in g.items %}
+    <li>{% include "partials/pub.njk" %}</li>
+    {%- endfor %}
+  </ul>
+</section>
+{%- endfor %}
