@@ -8,10 +8,10 @@
 {%- for g in groupes %}
 <section class="groupe" aria-labelledby="a{{ g.annee }}">
   <h2 id="a{{ g.annee }}">{{ g.annee }}</h2>
-  <ol class="pubs" reversed start="{{ g.items[0].num }}">
+  <ul class="pubs pubs--num">
     {%- for p in g.items %}
-    <li>{% include "partials/pub.njk" %}</li>
+    <li><span class="num">[{{ p.num }}]</span> <span class="ref">{% include "partials/pub.njk" %}</span></li>
     {%- endfor %}
-  </ol>
+  </ul>
 </section>
 {%- endfor %}
