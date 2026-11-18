@@ -58,6 +58,23 @@ content:
   - name: audio_en
     label: Présentation audio en anglais (fichier)
     type: string
+- name: redirections
+  label: Adresses courtes (redirections)
+  type: file
+  path: src/_data/redirections.yml
+  format: yaml
+  list: true
+  fields:
+  - name: adresse
+    label: Adresse courte
+    description: Ce qui vient après bruno-amann.fr/ (ex. Ragamann). Plusieurs écritures possibles, séparées par des virgules ; majuscules et minuscules sont gérées automatiquement.
+    type: string
+    required: true
+  - name: destination
+    label: Destination
+    description: Adresse complète vers laquelle renvoyer, commençant par https://
+    type: string
+    required: true
 - name: pages-fr
   label: Pages (français)
   type: collection

@@ -1,0 +1,5 @@
+# Adresses courtes : bruno-amann.fr/<adresse> renvoie automatiquement vers <destination>.
+# Plusieurs écritures possibles, séparées par des virgules (majuscules/minuscules ajoutées automatiquement).
+# Modifiable dans Pages CMS, rubrique « Adresses courtes (redirections) ».
+- adresse: Ragamann, RagAmann
+  destination: https://rag-web-production-0b8e.up.railway.app

@@ -21,7 +21,6 @@ export default function (eleventyConfig) {
   eleventyConfig.addDataExtension("yml,yaml", (c) => yaml.load(c));
   eleventyConfig.setLibrary("md", md);
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
-  eleventyConfig.addPassthroughCopy({ "src/_redirects": "_redirects" });
   eleventyConfig.addGlobalData("types", TYPES);
 
   // Markdown en ligne (références) et en bloc (champs secondaires)

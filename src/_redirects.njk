@@ -1,3 +1,22 @@
+---
+permalink: /_redirects
+eleventyExcludeFromCollections: true
+---
+# Adresses courtes (src/_data/redirections.yml, modifiable dans Pages CMS).
+# Écriture insensible aux majuscules : Ragamann, RagAmann, RAGAMANN… renvoient tous au même endroit.
+{%- for r in redirections %}
+{%- set vues = [] %}
+{%- for brut in (r.adresse | string).split(",") %}
+{%- set a = brut | trim | replace("/", "") %}
+{%- for v in [a, a | lower, a | upper, a | capitalize] %}
+{%- if v and (v not in vues) %}{% set vues = (vues.push(v), vues) %}
+/{{ v }}    {{ r.destination | trim }}    302
+/{{ v }}/*  {{ r.destination | trim }}    302
+{%- endif %}
+{%- endfor %}
+{%- endfor %}
+{%- endfor %}
+
 # Anciennes adresses du site Joomla -> nouvelles pages (redirections permanentes)
 /index.php                                   /presentation/travaux-par-annees/   301
 /index.php/home                              /                                   301
