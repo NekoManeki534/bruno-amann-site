@@ -1,4 +1,6 @@
 [build]
+  # Site désormais publié par GitHub Pages : Netlify ne construit plus rien (pas de crédits consommés).
+  ignore = "exit 0"
   command = "npm ci && npm run build"
   publish = "_site"
 

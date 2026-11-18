@@ -22,6 +22,8 @@ export default function (eleventyConfig) {
   eleventyConfig.setLibrary("md", md);
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addGlobalData("types", TYPES);
+  eleventyConfig.addPassthroughCopy({ "src/CNAME": "CNAME" });
+  eleventyConfig.addPassthroughCopy({ "src/assets/img/favicon.svg": "favicon.svg" });
 
   // Markdown en ligne (références) et en bloc (champs secondaires)
   eleventyConfig.addFilter("mdi", (s) => md.renderInline(String(s || "")));

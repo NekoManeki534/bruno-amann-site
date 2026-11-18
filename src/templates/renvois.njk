@@ -1,0 +1,21 @@
+---
+pagination:
+  data: renvois
+  size: 1
+  alias: r
+permalink: "/{{ r.chemin }}/index.html"
+eleventyExcludeFromCollections: true
+---
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="refresh" content="0; url={{ r.cible }}">
+  <link rel="canonical" href="{{ r.cible }}">
+  <title>Redirection – Bruno Amann</title>
+</head>
+<body>
+  <p>Cette adresse renvoie vers <a href="{{ r.cible }}">{{ r.cible }}</a>.</p>
+</body>
+</html>

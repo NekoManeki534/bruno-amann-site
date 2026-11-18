@@ -41,4 +41,8 @@ npm run build    # génère le site dans _site/
 
 ## Hébergement
 
-Hébergement prévu sur Netlify (gratuit), configuré par `netlify.toml` : chaque modification poussée sur la branche `main` déclenche la reconstruction du site.
+Le site est publié par **GitHub Pages** (gratuit, sans limite de mises en ligne) : à chaque modification de la branche `main`, y compris depuis Pages CMS, le workflow `.github/workflows/pages.yml` reconstruit et publie le site en une à deux minutes (onglet « Actions » du dépôt pour suivre).
+
+- Domaine : `bruno-amann.fr` (fichier `src/CNAME`), zone DNS chez OVH.
+- Adresses courtes (`bruno-amann.fr/Ragamann`…) : `src/_data/redirections.yml`, transformées en pages de renvoi par `src/_data/renvois.js` ; les anciennes adresses Joomla (`/index.php/...`) y sont aussi.
+- Netlify (utilisé au départ) est désactivé par `netlify.toml` (`ignore = "exit 0"`).
