@@ -45,4 +45,5 @@ Le site est publié par **GitHub Pages** (gratuit, sans limite de mises en ligne
 
 - Domaine : `bruno-amann.fr` (fichier `src/CNAME`), zone DNS chez OVH.
 - Adresses courtes (`bruno-amann.fr/Ragamann`…) : `src/_data/redirections.yml`, transformées en pages de renvoi par `src/_data/renvois.js` ; les anciennes adresses Joomla (`/index.php/...`) y sont aussi.
+- Versions Word (.docx) des CV et des listes de publications : produites à chaque publication par `scripts/export_word.py`, à l'adresse discrète `https://bruno-amann.fr/export-c5hd8uqbiq/` (liée nulle part sur le site ; le dépôt étant public, ce n'est pas un vrai verrou).
 - Netlify (utilisé au départ) est désactivé par `netlify.toml` (`ignore = "exit 0"`).
