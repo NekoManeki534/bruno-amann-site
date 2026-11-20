@@ -22,6 +22,21 @@ export default function (eleventyConfig) {
   eleventyConfig.setLibrary("md", md);
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addGlobalData("types", TYPES);
+
+  // Publications : un fichier par référence dans src/publications/ (collection Pages CMS).
+  // Lues ici comme données, sans en faire des pages.
+  eleventyConfig.ignores.add("src/publications/**");
+  eleventyConfig.addWatchTarget("src/publications/");
+  eleventyConfig.addGlobalData("publications", () =>
+    fs.readdirSync("src/publications")
+      .filter((f) => f.endsWith(".md"))
+      .sort()
+      .map((f) => {
+        const m = fs.readFileSync(`src/publications/${f}`, "utf8").match(/^---\r?\n([\s\S]*?)\r?\n---/);
+        const d = (m && yaml.load(m[1])) || {};
+        return { ...d, annee: Number(d.annee), ordre: Number(d.ordre) || 0, fichier: f };
+      })
+      .filter((d) => d.annee && d.reference));
   eleventyConfig.addPassthroughCopy({ "src/CNAME": "CNAME" });
   eleventyConfig.addPassthroughCopy({ "src/assets/img/favicon.svg": "favicon.svg" });
 
@@ -31,8 +46,8 @@ export default function (eleventyConfig) {
 
   // Publications triées (année décroissante, ordre du fichier conservé) et numérotées
   eleventyConfig.addFilter("numbered", (pubs) => {
-    const list = pubs.map((p, i) => ({ ...p, _i: i }))
-      .sort((a, b) => b.annee - a.annee || a._i - b._i);
+    // Année décroissante ; dans une année, « ordre » croissant (une nouvelle fiche sans ordre passe en tête)
+    const list = [...pubs].sort((a, b) => b.annee - a.annee || a.ordre - b.ordre || a.fichier.localeCompare(b.fichier));
     return list.map((p, i) => ({ ...p, num: list.length - i }));
   });
   eleventyConfig.addFilter("byYear", (pubs) => {

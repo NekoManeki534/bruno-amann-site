@@ -5,10 +5,26 @@ media:
 content:
 - name: publications
   label: Publications
-  type: file
-  path: src/_data/publications.yml
-  format: yaml
-  list: true
+  type: collection
+  path: src/publications
+  format: yaml-frontmatter
+  filename:
+    template: '{fields.annee}-{year}{month}{day}-{hour}{minute}{second}.md'
+    field: false
+  view:
+    fields:
+    - annee
+    - type
+    - reference
+    primary: reference
+    sort:
+    - annee
+    search:
+    - reference
+    - annee
+    default:
+      sort: annee
+      order: desc
   fields:
   - name: annee
     label: Année
@@ -58,6 +74,11 @@ content:
   - name: audio_en
     label: Présentation audio en anglais (fichier)
     type: string
+  - name: ordre
+    label: Ordre dans l’année (facultatif)
+    description: 'Laisser vide : une nouvelle publication s’affiche en tête de son année.'
+    type: number
+    hidden: true
 - name: redirections
   label: Adresses courtes (redirections)
   type: file
